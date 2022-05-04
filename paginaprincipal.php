@@ -54,8 +54,8 @@ $res_link_header= mysqli_query($xc, $sql_link_header);
     
         </ul>
         <p>
-          <?php
-          echo $_SESSION['usuario'];
+        <?php
+          echo 'Bienvenido: '.$_SESSION['usuario'];
           ?>
         </p>
     </nav>
