@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 13px;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.contenido{
+    height: 100%;
+    width: 100%;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url(../logccs/diseno-papel-pintado-pintado-mano-abstracto_23-2148437677.webp);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+}
+
+.form-box{
+    width: 345px;
+    height: 455px;
+    position: relative;
+    margin: 6% auto;
+    background:white;
+    padding: 5px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+
+
+.toggle-btn{
+    padding: 10px 20px;
+    cursor: pointer;
+    background:transparent;
+    border: 0px;
+    outline: none;
+    position: relative;
+    margin-left: 4.1px;
+}
+
+
+.input-group{
+    top: 180px;
+    position: absolute;
+    width: 280px;
+    transition: 0.8s;
+}
+
+.input-field{
+    width: 100%;
+    padding: 15px 0;
+    margin: 5px 0;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 2px solid #114d55;
+    outline: none;
+    background: transparent;
+    margin-left: 1px;
+}
+
+.submit-btn{
+    width: 89%;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    margin: 10px;
+    background: linear-gradient(to right,rgba(63,81,181, 0.7),rgba(0, 188, 212, 0.7));
+    border: 0px;
+    outline: none;
+    border-radius: 30px;
+    margin-left: 21px;
+    margin-top: 34px;
+}
+
+.check-box{
+    margin: 30px 10px 30px 0;
+}
+
+span{
+    color: #757575;
+    font-size: 12px;
+    bottom: 60.9px;
+    position: absolute;
+    margin-left: 5px;
+}
+span2{
+    color: #757575;
+    font-size: 12px;
+    bottom: 110.2px;
+    position: absolute;
+    margin-left: 5px;
+}
+
+#login{
+    left: 50px;
+}
+#registrar{
+    left: 450px;
+}
+
+h1{
+ 
+    text-align: center;
+    color: black;
+    font-size: 39px;
+    margin-top: 50px;
+    font-family:Vergur,'PT Sans', Verdana, sans-serif;
+    font-style: italic;
+}
+
+
