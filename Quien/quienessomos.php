@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <?php
+
     include('../funciones/funciones.php');
+    
     $xc = conectar();
     $sql_quienes_artista1= "SELECT * FROM artistas_destacados WHERE idartistas_destacados=1";
     $res_quienes_artista1 = mysqli_query($xc, $sql_quienes_artista1);
